@@ -8,13 +8,14 @@
 }
 .turtlechase {
  position:absolute;
- bottom:75%;
+ //bottom:75%;
+ bottom:120%;
  left:80%;
  z-index:100;
  height:60px;
  width:60px;
  animation-name:turtlerun;
- animation-duration:5s;
+ animation-duration:7s;
  animation-delay:0.5s;
  animation-iteration-count:infinite;
  animation-direction:normal;
@@ -22,13 +23,14 @@
 }
 .turtlerun {
  position:absolute;
- bottom:75%;
+ //bottom:75%;
+ bottom:120%;
  left:80%;
  z-index:100;
  height:60px;
  width:60px;
  animation-name:turtlerun;
- animation-duration:5s;
+ animation-duration:7s;
  animation-delay:0s;
  animation-iteration-count:infinite;
  animation-direction:normal;
@@ -36,7 +38,28 @@
 }
 @keyframes turtlerun {
  0% {
-  bottom:75%;
+  //bottom:75%;
+  bottom:120%;
+  left:80%;
+ }
+ 20% {
+  bottom:20%;
+  left:80%;
+ }
+ 35% {
+  bottom:15%;
+  left:15%;
+ }
+ 55% {
+  //bottom:70%;
+  bottom:120%;
+  left:15%;
+ }
+}
+@keyframes turtlerunold {
+ 0% {
+  //bottom:75%;
+  bottom:120%;
   left:80%;
  }
  25% {
@@ -48,7 +71,8 @@
   left:15%;
  }
  75% {
-  bottom:70%;
+  //bottom:70%;
+  bottom:120%;
   left:15%;
  }
 }
@@ -56,7 +80,7 @@
 
 
 #container1 {
-    background-image:url(../plasticbeach.jpg);
+    background-image:url(../img/plasticbeach.jpg);
     background-position:center;
 	overflow: hidden;
 	//z-index:1;
